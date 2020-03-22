@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
-              radius: 100.0,
+              radius: 80.0,
               backgroundImage: AssetImage('images/perfil.jpg'),
             ),
             Text(
