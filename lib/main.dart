@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 90.0,
-              backgroundImage: AssetImage('images/perfil.jpg'),
+              backgroundImage: const AssetImage('images/perfil.jpg'),
             ),
             Text(
               'Luis Fernando Galviz',
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Card(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 color: Colors.white,
                 child: ListTile(
                   leading: Icon(
@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
                   ),
                 )),
             Card(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 color: Colors.white,
                 child: ListTile(
                   leading: Icon(
